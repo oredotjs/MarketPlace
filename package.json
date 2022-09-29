@@ -7,7 +7,8 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "dev": "NODE_ENV=DEVELOPMENT nodemon backend/server.js",
-    "prod": "NODE_ENV=PRODUCTION nodemon backend/server.js"
+    "prod": "NODE_ENV=PRODUCTION nodemon backend/server.js",
+    "build": "npm backend/server.js"
   },
   "author": "Emmanuel Oreoluwa",
   "license": "ISC",
