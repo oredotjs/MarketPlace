@@ -16,6 +16,6 @@ jobs:
         with:
           node-version: 14.x
       - name: Install dependencies
-        run: NODE_ENV=PRODUCTION npm backend/server
+        run: npm backend/server
       - name: Build
         run: npm run prod
