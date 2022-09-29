@@ -16,6 +16,6 @@ jobs:
         with:
           node-version: 14.x
       - name: Install dependencies
-        run: npm backend/server
+        run: npm ci
       - name: Build
-        run: npm run prod
+        run: npm backend/server
